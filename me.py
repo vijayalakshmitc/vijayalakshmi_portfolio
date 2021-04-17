@@ -20,8 +20,8 @@ def about_me():
     #About me
     my_expander3 = st.beta_expander("A few words about me", expanded=True)
     with my_expander3:
-        st.markdown("""## _ __ I’m Nikhil Ramesh, a multidisciplinary thinker who focuses on telling my clients’ stories with statistics, through enjoyable and meaningful experiences. I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools. __ _""")
-        st.markdown("""### _ Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application. _ """)
+        st.text("I’m Nikhil Ramesh, a multidisciplinary thinker who focuses on telling my clients’ stories with statistics, through enjoyable and meaningful experiences. I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
+        st.text("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
     my_expander = st.beta_expander("Some of the Clients I have worked with", expanded=True)
     with my_expander:
         d,e = st.beta_columns(2)
