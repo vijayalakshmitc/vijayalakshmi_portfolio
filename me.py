@@ -23,8 +23,10 @@ def about_me():
         st.header("I’m Nikhil Ramesh, a multidisciplinary thinker who focuses on telling my clients stories with statistics, through enjoyable and meaningful experiences.      I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
         
     my_expander3 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
-        #st.subheader("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
+    
+    
     with my_expander3:
+        st.subheader("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
         d,e = st.beta_columns(2)
         d.image("isha.jpeg",caption="Isha Foundations")
         e.image("nccab.png",caption="NCC AB")
@@ -43,6 +45,7 @@ def about_me():
         st.markdown(""" ### My 4+ years experience, For more details head over to my [linkedin profile](https://www.linkedin.com/in/nikhil-ramesh-5125b7139/)""")
         st.markdown("""| Organization        | Role           | Date  | Place
         | ---------------------------------------------- |:--------------:| -----------------:| -----------------:|
+        | NCC AB                                         | Master Thesis | 01/2021 – Present | Gothenburg, Sweden |
         | BlockchainX AB                                 | Data Scientist | 07/2020 – 12/2020 | Jönköping, Sweden |
         | Agile Health Medexpert Software Solutions      | Junior Software Developer | 08/2018 – 04/2019 | Bangalore, India |
         | Agile Health Medexpert Software Solutions      | Software Engineer | 08/2017 – 07/2018 | Bangalore, India |
