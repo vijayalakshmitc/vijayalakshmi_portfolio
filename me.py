@@ -23,9 +23,7 @@ def about_me():
         st.header("I’m Nikhil Ramesh, a multidisciplinary thinker who focuses on telling my clients stories with statistics, through enjoyable and meaningful experiences.      I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
         
     my_expander3 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
-    with my_expander4:
-        st.subheader("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
-    my_expander4 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
+        #st.subheader("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
     with my_expander:
         d,e = st.beta_columns(2)
         d.image("isha.jpeg",caption="Isha Foundations")
