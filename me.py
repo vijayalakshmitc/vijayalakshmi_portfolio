@@ -76,23 +76,23 @@ def about_me():
         i.image("bim.jpeg",caption="BIM Class Detection Bot (2021)")
         i.markdown("""[Click here to know more](https://www.youtube.com/)""")
 
-#background image 
-main_bg = "sample.jpg"
-main_bg_ext = "jpg"
+# #background image 
+# main_bg = "sample.jpg"
+# main_bg_ext = "jpg"
 
 
 
-st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background: url(data:{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
-    }}
+# st.markdown(
+#     f"""
+#     <style>
+#     .reportview-container {{
+#         background: url(data:{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
+#     }}
    
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 
 port = 465  # For SSL
