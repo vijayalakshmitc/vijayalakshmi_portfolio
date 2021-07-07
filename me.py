@@ -18,15 +18,14 @@ def mail():
 def about_me():
 
     #About me
-    my_expander = st.beta_expander("A few words about me", expanded=True)
-    with my_expander:
-        st.subheader("I’m Nikhil Ramesh, a multidisciplinary thinker who focuses on telling my clients stories with statistics, through enjoyable and meaningful experiences.      I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
-        
+    
+    st.subheader("A multidisciplinary thinker who focuses on telling my clients stories with statistics, through enjoyable and meaningful experiences.      I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
+    st.subheader("Over the past 3 years I have been working with companies and startups around the world, working solo and leading small teams.")
     my_expander3 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
     
     
     with my_expander3:
-        st.subheader("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
+        
         d,e = st.beta_columns(2)
         d.image("isha.jpeg",caption="Isha Foundations")
         e.image("nccab.png",caption="NCC AB")
@@ -42,7 +41,7 @@ def about_me():
 
     my_expander1 = st.beta_expander("Experience", expanded=True)
     with my_expander1:
-        st.markdown(""" ### My 4+ years experience, For more details head over to my [linkedin profile](https://www.linkedin.com/in/nikhil-ramesh-5125b7139/)""")
+        st.markdown(""" ### My 3+ years experience, For more details head over to my [linkedin profile](https://www.linkedin.com/in/nikhil-ramesh-5125b7139/)""")
         st.markdown("""| Organization        | Role           | Date  | Place
         | ---------------------------------------------- |:--------------:| -----------------:| -----------------:|
         | NCC AB                                         | Master Thesis | 01/2021 – Present | Gothenburg, Sweden |
@@ -52,7 +51,7 @@ def about_me():
         """)
     my_expander2 = st.beta_expander("Skills & Tools", expanded=True)  
     with my_expander2:
-        st.markdown(""" Python / Core Java / SQL / AWS / Tableau / KNIME / Machine Learning / Deep Learning / ETL / Object Oriented Programming / Testing and Agile Methodologies / HTML / CSS / JavaScript / Django / Git / MIRTH / Microsoft Office / Postman / Android Studio / Visual Studio code / SQL Developer. """)
+        st.markdown(""" Python / Core Java / SQL / AWS / Tableau / KNIME / Machine Learning / Deep Learning / ETL / Object Oriented Programming / Ruby/ Ruby on Rails/ Testing and Agile Methodologies / HTML / CSS / JavaScript / Django / Git / MIRTH / Microsoft Office / Postman / Android Studio / Visual Studio code / SQL Developer. """)
     
     my_expander_p = st.beta_expander("Some of the Projects I have worked with", expanded=True)
     with my_expander_p:
