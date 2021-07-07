@@ -27,6 +27,7 @@ def about_me():
     
     with my_expander3:
         st.subheader("Over the past 4 years I have been working with companies and startups around the world as a developer and Data Scientist, working solo and leading small smart application.")
+        st.markdown("</br></br>")
         d,e = st.beta_columns(2)
         d.image("isha.jpeg",caption="Isha Foundations")
         e.image("nccab.png",caption="NCC AB")
