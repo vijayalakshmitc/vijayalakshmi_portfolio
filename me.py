@@ -21,7 +21,6 @@ def about_me():
     
     st.subheader("A multidisciplinary thinker who focuses on telling my clients stories with statistics, through enjoyable and meaningful experiences.      I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
     st.subheader("Over the past 3 years I have been working with companies and startups around the world, working solo and leading small teams.")
-    st.subheader("")
     my_expander3 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
     
     
