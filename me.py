@@ -19,7 +19,7 @@ def about_me():
 
     #About me
     
-    st.subheader("I specialize in Machine learning algorithms, Data Pipelines and Data visualization tools.")
+    st.subheader("I specialize in Machine learning algorithms, Data Pipelines.")
     
     my_expander3 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
     
