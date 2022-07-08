@@ -16,14 +16,9 @@ def mail():
 
 # Function about me page
 def about_me():
-
     #About me
-    
     st.subheader("I specialize in Machine learning algorithms, Data Pipelines.")
-    
     my_expander3 = st.beta_expander("Some of the Clients I have worked with", expanded=True)
-    
-    
     with my_expander3:
         d,e = st.beta_columns(2)
         d.image("isha.jpeg",caption="Isha Foundations")
